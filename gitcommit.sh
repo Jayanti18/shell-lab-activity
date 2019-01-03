@@ -8,7 +8,7 @@ echo $message
 git status
 git add .
 git commit -m "$message"
-git push
+git push --set-upstream origin master
 
 # read -r -p "commit message:" message
 # if [ -a $pwd/.git ]
